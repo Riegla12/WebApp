@@ -336,6 +336,11 @@
             text-align: center;
             font-size: large;
         }
+        
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;            
+        }
 
         .buttons{
             margin-top: 20px;
@@ -361,103 +366,103 @@
     
     <div class="center"> <!--Sudoku Tabelle (9x9)--> 
         <div style="margin: 0;"> <!--Reihe 1-->
-            <input id="Row1_Col1" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row1_Col2" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row1_Col3" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row1_Col4" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row1_Col5" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row1_Col6" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row1_Col7" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row1_Col8" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row1_Col9" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row1_Col1" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row1_Col2" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row1_Col3" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row1_Col4" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row1_Col5" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row1_Col6" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row1_Col7" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row1_Col8" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row1_Col9" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
         </div>
         <div> <!--Reihe 2-->
-            <input id="Row2_Col1" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row2_Col2" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row2_Col3" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row2_Col4" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row2_Col5" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row2_Col6" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row2_Col7" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row2_Col8" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row2_Col9" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row2_Col1" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row2_Col2" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row2_Col3" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row2_Col4" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row2_Col5" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row2_Col6" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row2_Col7" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row2_Col8" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row2_Col9" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
         </div>
         <div> <!--Reihe 3-->
-            <input id="Row3_Col1" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row3_Col2" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row3_Col3" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom FatBorderRight">
-            <input id="Row3_Col4" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row3_Col5" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row3_Col6" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom FatBorderRight">
-            <input id="Row3_Col7" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row3_Col8" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row3_Col9" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row3_Col1" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row3_Col2" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row3_Col3" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom FatBorderRight">
+            <input id="Row3_Col4" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row3_Col5" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row3_Col6" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom FatBorderRight">
+            <input id="Row3_Col7" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row3_Col8" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row3_Col9" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
         </div>
         <div> <!--Reihe 4-->
-            <input id="Row4_Col1" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row4_Col2" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row4_Col3" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row4_Col4" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row4_Col5" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row4_Col6" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row4_Col7" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row4_Col8" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row4_Col9" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row4_Col1" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row4_Col2" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row4_Col3" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row4_Col4" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row4_Col5" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row4_Col6" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row4_Col7" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row4_Col8" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row4_Col9" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
         </div>
         <div> <!--Reihe 5-->
-            <input id="Row5_Col1" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row5_Col2" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row5_Col3" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row5_Col4" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row5_Col5" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row5_Col6" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row5_Col7" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row5_Col8" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row5_Col9" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row5_Col1" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row5_Col2" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row5_Col3" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row5_Col4" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row5_Col5" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row5_Col6" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row5_Col7" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row5_Col8" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row5_Col9" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
         </div>
         <div> <!--Reihe 6-->
-            <input id="Row6_Col1" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row6_Col2" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row6_Col3" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom FatBorderRight">
-            <input id="Row6_Col4" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row6_Col5" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row6_Col6" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom FatBorderRight">
-            <input id="Row6_Col7" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row6_Col8" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
-            <input id="Row6_Col9" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row6_Col1" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row6_Col2" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row6_Col3" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom FatBorderRight">
+            <input id="Row6_Col4" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row6_Col5" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row6_Col6" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom FatBorderRight">
+            <input id="Row6_Col7" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row6_Col8" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
+            <input id="Row6_Col9" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderBottom">
         </div>
         <div> <!--Reihe 7-->
-            <input id="Row7_Col1" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row7_Col2" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row7_Col3" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row7_Col4" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row7_Col5" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row7_Col6" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row7_Col7" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row7_Col8" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row7_Col9" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row7_Col1" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row7_Col2" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row7_Col3" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row7_Col4" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row7_Col5" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row7_Col6" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row7_Col7" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row7_Col8" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row7_Col9" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
         </div>
         <div> <!--Reihe 8-->
-            <input id="Row8_Col1" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row8_Col2" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row8_Col3" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row8_Col4" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row8_Col5" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row8_Col6" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row8_Col7" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row8_Col8" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row8_Col9" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row8_Col1" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row8_Col2" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row8_Col3" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row8_Col4" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row8_Col5" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row8_Col6" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row8_Col7" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row8_Col8" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row8_Col9" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
         </div>
         <div> <!--Reihe 9-->
-            <input id="Row9_Col1" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row9_Col2" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row9_Col3" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row9_Col4" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row9_Col5" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row9_Col6" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
-            <input id="Row9_Col7" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row9_Col8" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
-            <input id="Row9_Col9" type="text" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row9_Col1" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row9_Col2" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row9_Col3" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row9_Col4" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row9_Col5" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row9_Col6" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)" class="FatBorderRight">
+            <input id="Row9_Col7" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row9_Col8" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
+            <input id="Row9_Col9" type="number" onfocus="InputOnFocus(this)" onblur="InputOnBlur(this)">
         </div>
     </div>
     <div class="center">
